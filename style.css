@@ -18,6 +18,12 @@ body{
 img{
     width: 100%;
 }
+p{
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.7;
+    
+}
 
 header{
     background-image: url(assets/Hero-bg.png);
@@ -45,12 +51,15 @@ header{
     height: 240px;
 }
 
-button {
+button.btn {
     width: 160px;
-    padding: 8px 16px;
+    /* padding: 8px 18px; */
+    padding: 8px 0px 8px 11px;
     background: black;
     color: white;
     font-size: 16px;
+    text-align: left;
+    border-radius: 8px;
 }
 
 h1.header_title {
@@ -65,4 +74,102 @@ p.header_desc {
     opacity: 0.8;
     width: 600px;
     text-align: center;
+}
+
+.dev {
+    width: 1170px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 16px;
+    /* display: flex; */
+    background: rgba(13, 19, 33, 0.02);
+    /* flex-direction: column; */
+    /* gap: 20px; */
+}
+
+.dev_container {
+    width: 850px;
+    margin: auto;
+    display: flex;
+    /* margin-bottom: 40px; */
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 16px;
+}
+
+dev.title {
+    text-align: center;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+dev.title h1 {
+    font-size: 32px;
+}
+
+dev.title p {
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+button.dev_1 {
+    background: white;
+    color: black;
+    width: 150px;
+    padding: 8px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+.dev_1 {
+    width: 850px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: white;
+    align-items: ;
+    padding: 35px;
+    align-items: start;
+    border-radius: 16px;
+}
+
+.dev_1_image {
+    width: 260px;
+    height: 215px;
+}
+.div_1_aside {
+    /* width: 477px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 25px;
+}
+
+h3.dev_1_title {
+    font-size: 20px;
+    font-weight: bolder;
+    width: 400px;
+}
+
+p.dev_1_desc {
+    width: 430px;
+}
+.dev_3_image{
+    width: 206px;
+}
+.dev_2{
+    width: 850px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background: white;
+    align-items: ;
+    padding: 35px;
+    align-items: start;
+    border-radius: 16px;
+    gap: 30px;
 }
