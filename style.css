@@ -52,14 +52,18 @@ header{
 }
 
 button.btn {
-    width: 160px;
+    width: 155px;
     /* padding: 8px 18px; */
-    padding: 8px 0px 8px 11px;
+    padding: 8px 8px 8px 8px;
     background: black;
     color: white;
     font-size: 16px;
-    text-align: left;
+    text-align: center;
     border-radius: 8px;
+}
+.btn a{
+    color:white;
+    text-decoration: none;
 }
 
 h1.header_title {
@@ -120,10 +124,17 @@ button.dev_1_button {
     background: white;
     color: black;
     width: 150px;
+    cursor: pointer;
     padding: 8px;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
 }
+
+button.dev_1_button a{
+    color: black;
+    text-decoration: none;
+}
+
 .dev_1 {
     width: 850px;
     display: flex;
@@ -176,7 +187,7 @@ p.dev_1_desc {
 
 
 
-
+/* inspiration */
 
 
 
@@ -294,7 +305,7 @@ background: rgba(255, 223, 0, 0.05);
 
 
 
-
+/* support */
 
 
 
@@ -368,7 +379,7 @@ input[type="submit"] {
 
 
 
-
+/* footer */
 
 
 footer{
