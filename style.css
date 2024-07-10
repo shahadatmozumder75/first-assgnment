@@ -295,3 +295,72 @@ background: rgba(255, 223, 0, 0.05);
 
 
 
+
+
+
+#support{
+    background-image:linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url('assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1170px;
+    margin: auto;
+    border-radius: 16px;
+    margin-top: 150px;
+}
+.support_text {
+    width: 730px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+h3.support_title {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+p.support_desc {
+    color: white;
+    text-align: center;
+}
+
+.support_container {
+    width: 1044px;
+    padding: 64px 48px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+input[type="text"] {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 450px;
+    padding: 20px;
+    height: 30px;
+}
+
+input[type="submit"] {
+    border-radius: 8px;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    font-weight: bold;
+    width: 120px;
+    /* height: 30px; */
+    font-size: 15px;
+    padding: 11px 6px;
+}
+
+.input_box {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
