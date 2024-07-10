@@ -364,3 +364,34 @@ input[type="submit"] {
     justify-content: center;
     align-items: center;
 }
+
+
+
+
+
+
+
+footer{
+    border-radius: 16px;
+    margin-top: 80px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.footer_icon img{
+    width: 22px;
+}
+
+.footer_container {
+    width: 1170px;
+    margin: auto;
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.footer_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
