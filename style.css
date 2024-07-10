@@ -116,7 +116,7 @@ dev.title p {
     opacity: 0.6;
 }
 
-button.dev_1 {
+button.dev_1_button {
     background: white;
     color: black;
     width: 150px;
@@ -173,3 +173,67 @@ p.dev_1_desc {
     border-radius: 16px;
     gap: 30px;
 }
+
+
+
+
+
+
+
+
+
+section#inspiration {
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    margin-top: 80px;
+    gap: 40px;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.inspiration_text.dev_1_title {
+    width: 850px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h3.inspiration_title {
+    font-size: 32px;
+}
+
+.inspiration_vdo {
+    /* width: 1163px; */
+    /* margin: auto; */
+    /* box-sizing: border-box; */
+    /* border: 1px solid rgba(13, 19, 33, 0.2); */
+    /* border-radius: 16px; */
+}
+
+iframe {
+    /* text-align: center; */
+    width: 1076px;
+    height: 550px;
+    /* margin: auto; */
+    border-radius: 16px;
+}
+.vdo {
+    display: flex;
+    width: 1170px;
+    margin: auto;
+    /* box-sizing: border-box; */
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    justify-content: center;
+    border-radius: 16px;
+    padding: 40px 0px;
+}
+
+
+
+
+
+
